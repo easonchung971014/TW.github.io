@@ -1,0 +1,382 @@
+/* 版面設定 */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    transition: 0.4s all linear;
+    font-size: 22px; 
+    font-family: Helvetica;
+}
+    /* border-top: 5px solid rgb(172, 125, 173);
+    border-radius: 20px 20px 0 0;
+    width: 500px;
+    margin-left: 8%;
+    transform: translateY(100px); */
+body{
+    background-color: #7ad1b4;
+
+}
+
+.holy-basil-image{
+    margin-top: 100px;
+    height: 500px;
+    margin-left: 8%;
+    /* border: 1px solid #00000b0e */
+}
+
+.holy-basil{
+    margin-top: -30rem;
+    height:100%;
+    border-top: 70px solid #7ad1b4;
+    border-left: 50px solid #7ad1b4;
+    border-right: 50px solid #7ad1b4;
+    background-color: #fff;
+    
+    padding-bottom: 50px;
+}
+
+.holy-basil h2{
+    display: block;
+    font-size: 50px;
+    color:#7ad1b4;
+    margin-left: 50%;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.tell-holy{
+    margin-left: 50%;
+}
+
+.line-50{
+    border-bottom: 1px solid #00000b34;
+    margin-top: 20px;
+    width: 650px;
+    margin-left: 50%;
+
+}
+
+.tell-holy .a{
+    color: #00000b;
+    font-size: 20px;
+}
+
+.it-have{
+    margin-top: 20px;
+    margin-left: 50%;
+}
+
+.it-have .h1{
+    color:#7ad1b4;
+    margin-bottom: 20px;
+}
+
+.it-have .li{
+    font-size: 20px;
+}
+
+.about-basil{
+    margin-top: 20px;
+    margin-left: 50%;
+}
+
+.about-basil .h1{
+    color:#7ad1b4;
+    margin-bottom: 20px;
+}
+
+.about-basil .a{
+    font-size: 20px;
+    color: #00000b
+}
+
+.how-to-use{
+    margin-left: 50%;
+    margin-top: 20px;
+}
+
+.how-to-use .h1{
+    color:#7ad1b4;
+    margin-bottom: 20px;
+}
+
+.how-to-use .li{
+    font-size: 20px;
+}
+
+.take-care{
+    display: block;
+    margin-left: 8%;
+    margin-right: 55%;
+    margin-top: -150px;
+}
+
+.take-care .h1{
+    color: #7ad1b4;
+    margin-bottom: 20px;
+}
+
+.take-care .a{
+    font-size: 20px;
+}
+
+.how-to-use a{
+    font-size: 15px;
+}
+
+
+
+@media (max-width: 600px){
+    .holy-basil-image{
+        display: block;
+        margin: auto;
+        margin-top: 100px;
+        height: 300px;
+    }
+
+    .line-70{
+        margin-top: -20px;
+        width: 300px;
+        margin: auto;
+    }
+
+    .holy-basil{
+        margin: 0;
+    }
+
+    .holy-basil h2{
+        text-align: center;
+        margin-top: 1rem;
+        margin-left: 0;
+    }
+
+    .tell-holy{
+        margin-left: 0;
+        text-align: left;
+    }
+
+    .tell-holy span{
+        font-size: 24px;
+    }
+
+    .it-have{
+        margin-left: 0;
+        margin: auto;
+    }
+
+    .line-50{
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .it-have h1{
+        text-align: center;
+    }
+
+    .it-have li{
+        text-align: center;
+    }
+
+    .about-basil{
+        margin-left: 0;
+    }
+
+    .about-basil h1{
+        text-align: center;
+    }
+
+    .how-to-use{
+        margin-left: 0;
+    }
+
+    .how-to-use h1{
+        text-align: center;
+    }
+
+    .how-to-use li{
+        margin-left: 10%;
+        text-align: left;
+    }
+
+    .take-care{
+        display: block;
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 50px;
+    }
+
+    .take-care h1{
+        text-align: center;
+    }
+}
+
+@media (max-width: 646px){
+    .holy-basil-image{
+        display: block;
+        margin: auto;
+        margin-top: 100px;
+        height: 300px;
+    }
+
+    .line-70{
+        margin-top: -20px;
+        width: 300px;
+        margin: auto;
+    }
+
+    .holy-basil{
+        margin: 0;
+    }
+
+    .holy-basil h2{
+        text-align: center;
+        margin-top: 1rem;
+        margin-left: 0;
+    }
+
+    .tell-holy{
+        margin-left: 0;
+        text-align: left;
+    }
+
+    .tell-holy span{
+        font-size: 24px;
+    }
+
+    .it-have{
+        margin-left: 0;
+    }
+
+    .line-50{
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .it-have h1{
+        text-align: center;
+    }
+
+    .it-have li{
+        text-align: left;
+        margin-left: 25%;
+    }
+
+    .about-basil{
+        margin-left: 0;
+    }
+
+    .about-basil h1{
+        text-align: center;
+    }
+
+    .how-to-use{
+        margin-left: 0;
+    }
+
+    .how-to-use h1{
+        text-align: center;
+    }
+
+    .how-to-use li{
+        margin-left: 10%;
+        text-align: left;
+    }
+
+    .take-care{
+        display: block;
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 50px;
+    }
+
+    .take-care h1{
+        text-align: center;
+    }
+
+}
+
+@media (max-width: 835px){
+    .holy-basil-image{
+        display: block;
+        margin: auto;
+        margin-top: 100px;
+        height: 300px;
+    }
+
+    .line-70{
+        margin-top: -20px;
+        width: 300px;
+        margin: auto;
+    }
+
+    .holy-basil{
+        margin: 0;
+    }
+
+    .holy-basil h2{
+        text-align: center;
+        margin-top: 1rem;
+        margin-left: 0;
+    }
+
+    .tell-holy{
+        margin-left: 0;
+        text-align: left;
+    }
+
+    .tell-holy span{
+        font-size: 24px;
+    }
+
+    .it-have{
+        margin-left: 0;
+    }
+
+    .line-50{
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .it-have h1{
+        text-align: center;
+    }
+
+    .it-have li{
+        text-align: left;
+        margin-left: 25%;
+    }
+
+    .about-basil{
+        margin-left: 0;
+    }
+
+    .about-basil h1{
+        text-align: center;
+    }
+
+    .how-to-use{
+        margin-left: 0;
+    }
+
+    .how-to-use h1{
+        text-align: center;
+    }
+
+    .how-to-use li{
+        margin-left: 10%;
+        text-align: left;
+    }
+
+    .take-care{
+        display: block;
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 50px;
+    }
+
+    .take-care h1{
+        text-align: center;
+    }
+}
